@@ -1,0 +1,56 @@
+{% extends 'layout/base.html' %}
+
+
+{% block content %}
+    <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Album</a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>       
+        </div>
+    </nav>
+    <div class="container py-5 text-center">
+        <div class="row">
+            <div class="col-lg-6 col-md-8 mx-auto">
+                <h1>Album example</h1>
+                <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
+                <p>
+                    <a name="" id="" class="btn btn-primary" href="#" role="button">Call to action</a>
+                    <a name="" id="" class="btn btn-secondary" href="#" role="button">Secondary action</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="bg-light">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-4 my-4">
+                    <div class="card">
+                        <img class="card-img-top img-fluid" src="holder.js/400x180/" alt="">
+                        <div class="card-body">
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-outline-dark">Action 1</button>
+                                <button type="button" class="btn btn-outline-dark">Action 2</button>
+                            </div>
+                            <small>9 mins</small>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- copy this col 9 times -->
+            </div>
+        </div>
+    </div>
+
+{% endblock content %}
+    
